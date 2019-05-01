@@ -33,7 +33,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            cd reports
+            cd repo
             . venv/bin/activate
             python manage.py test
 
